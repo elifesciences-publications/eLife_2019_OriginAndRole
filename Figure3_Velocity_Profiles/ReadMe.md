@@ -1,4 +1,4 @@
-The .txt files that are referred to in the following can be found in the Dryad Digital Repository
+The .txt files that are referred to in the following can be found in the Dryad Digital Repository. The "TracesWT.mat" file can be found here, and corresponds to the in vivo measurements of the velocity profile in the CC.
 
 1)	The panel A3 of the figure 3 represents a colormap of the axial velocity distribution in the central canal, taking an axially invariant force f_v in the ventral half of the canal. The velocity values are located in a text file named “homogeneous_force_distribution_velocity_magnitude.txt”, composed of 1000 raws and 2500 columns. The raws represent the coordinate in the y-direction (radial), linearly distributed from the ventral wall (y=0) to the dorsal wall (y=t=10^-5 m). The columns represent the coordinate in the axial direction (x), linearly distributed from x=1.75*10^-5 m to 4.25*10^-5 m (i.e. a length of 2.5*10^-5m, or 2.5 canal diameter). To produce the colormap of the panel A3, the first part of the Matlab script called “VelocityDistrib_and_Streamlines.m” has to be runned. 
 
